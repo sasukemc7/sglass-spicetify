@@ -8,9 +8,8 @@
   "license": "MIT",
   "readme": "https://raw.githubusercontent.com/sasukemc7/sglass-spicetify/main/README.md",
   "preview": "https://raw.githubusercontent.com/sasukemc7/sglass-spicetify/main/preview/theme.png",
-  "usercss": "user.css",
-  "userjs": "theme.js",
-  "schemes": "color.ini",
+  "usercss": "https://raw.githubusercontent.com/sasukemc7/sglass-spicetify/main/user.css",
+  "schemes": "https://raw.githubusercontent.com/sasukemc7/sglass-spicetify/main/color.ini",
   "tags": ["glass", "liquid", "dynamic", "modern", "animation"],
   "usedColors": [
     "text","subtext","main","sidebar","player","card","shadow","selected-row",
