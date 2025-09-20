@@ -3,14 +3,14 @@
   "description": "A premium glass-inspired Spotify theme featuring dynamic colors, liquid glass effects, and sleek animations.",
   "version": "1.0.0",
   "authors": [
-    { "name": "Sasuke MC", "url": "https://github.com/tu-usuario" }
+    { "name": "Sasuke MC", "url": "https://github.com/sasukemc7" }
   ],
   "license": "MIT",
-  "readme": "README.md",
-  "preview": "preview/theme.png",
+  "readme": "https://raw.githubusercontent.com/sasukemc7/sglass-spicetify/main/README.md",
+  "preview": "https://raw.githubusercontent.com/sasukemc7/sglass-spicetify/main/preview/theme.png",
   "usercss": "user.css",
   "userjs": "theme.js",
-  "schemeIni": "color.ini",
+  "schemes": "color.ini",
   "tags": ["glass", "liquid", "dynamic", "modern", "animation"],
   "usedColors": [
     "text","subtext","main","sidebar","player","card","shadow","selected-row",
@@ -27,6 +27,8 @@
       "description": "Use custom color picker to set your preferred theme colors"
     }
   },
-  "include": [],
+  "include": [
+    "https://raw.githubusercontent.com/sasukemc7/sglass-spicetify/main/theme.js"
+  ],
   "branch": "main"
 }
