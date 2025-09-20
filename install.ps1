@@ -40,13 +40,29 @@ if (Test-Path $themeDir) {
     Write-Host "✓ Previous theme removed" -ForegroundColor Green
 }
 
-# Copy current theme to themes folder
-$currentThemeDir = Split-Path $MyInvocation.MyCommand.Path -Parent
-if (Test-Path (Join-Path $currentThemeDir "manifest.json")) {
-    Copy-Item $currentThemeDir $themeDir -Recurse
-    Write-Host "✓ Theme copied successfully" -ForegroundColor Green
-} else {
-    Write-Host "✗ Error: Theme files not found in current directory" -ForegroundColor Red
+# Download theme files from GitHub
+Write-Host "📥 Downloading theme files..." -ForegroundColor Blue
+
+try {
+    # Create theme directory
+    New-Item -ItemType Directory -Path $themeDir -Force | Out-Null
+    
+    # Base URL for raw files
+    $baseUrl = "https://raw.githubusercontent.com/sasukemc7/sglass-spicetify/main"
+    
+    # Download theme files
+    $files = @("user.css", "theme.js", "color.ini", "manifest.json")
+    
+    foreach ($file in $files) {
+        $url = "$baseUrl/$file"
+        $destination = Join-Path $themeDir $file
+        Write-Host "Downloading $file..." -ForegroundColor Gray
+        Invoke-WebRequest -Uri $url -OutFile $destination -UseBasicParsing
+    }
+    
+    Write-Host "✓ Theme files downloaded successfully" -ForegroundColor Green
+} catch {
+    Write-Host "✗ Error downloading theme files: $($_.Exception.Message)" -ForegroundColor Red
     exit 1
 }
 
@@ -72,7 +88,7 @@ try {
     Write-Host "4. Enjoy the liquid glass effects!" -ForegroundColor White
     Write-Host ""
     Write-Host "💡 Tip: Enable 'Dynamic song colors' for the best experience" -ForegroundColor Cyan
-    Write-Host "🌐 Support: https://sasukemc7.com" -ForegroundColor Blue
+    Write-Host "🌐 Support: https://sasukemc.com" -ForegroundColor Blue
     
 } catch {
     Write-Host "✗ Error applying theme: $($_.Exception.Message)" -ForegroundColor Red

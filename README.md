@@ -187,7 +187,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 <div align="center">
 
-**[Website](https://sasukemc.com)** • **[Portfolio](https://sasukemc.com)** • **[Report Issues](https://sasukemc.com)**
+**[Website](https://sasukemc.com)** • **[Portfolio](https://sasukemc.com)** • **[Report Issues](https://github.com/sasukemc7/sglass-spicetify/issues)**
 
 Made with ❤️ by Sasuke MC
 
