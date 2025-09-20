@@ -1,33 +1,18 @@
 {
   "name": "SGlass",
   "description": "A premium glass-inspired Spotify theme featuring dynamic colors, liquid glass effects, and sleek animations.",
-  "version": "1.0.0",
-  "authors": [
-    { "name": "Sasuke MC", "url": "https://github.com/sasukemc7" }
-  ],
-  "license": "MIT",
   "readme": "https://raw.githubusercontent.com/sasukemc7/sglass-spicetify/main/README.md",
   "preview": "https://raw.githubusercontent.com/sasukemc7/sglass-spicetify/main/preview/theme.png",
-  "usercss": "https://raw.githubusercontent.com/sasukemc7/sglass-spicetify/main/user.css",
-  "schemes": "https://raw.githubusercontent.com/sasukemc7/sglass-spicetify/main/color.ini",
+  "usercss": "user.css",
+  "schemes": "color.ini",
   "tags": ["latest", "glass", "liquid", "dynamic", "modern", "animation"],
-  "usedColors": [
-    "text","subtext","main","sidebar","player","card","shadow","selected-row",
-    "button","button-active","button-disabled","tab-active","notification",
-    "notification-error","misc"
-  ],
-  "colorSchemes": {
-    "auto": {
-      "name": "Auto (Dynamic)",
-      "description": "Dynamically extracts colors from album artwork"
-    },
-    "custom": {
-      "name": "Custom Colors", 
-      "description": "Use custom color picker to set your preferred theme colors"
-    }
-  },
   "include": [
     "https://raw.githubusercontent.com/sasukemc7/sglass-spicetify/main/theme.js"
   ],
-  "branch": "main"
+  "authors": [
+    { 
+        "name": "Sasuke MC", 
+        "url": "https://github.com/sasukemc7" 
+    }
+  ]
 }
