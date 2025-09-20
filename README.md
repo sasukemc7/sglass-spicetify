@@ -37,19 +37,19 @@ A premium glass-inspired Spotify theme featuring dynamic colors, liquid glass ef
 
 #### Windows (PowerShell)
 ```powershell
-Invoke-WebRequest -UseBasicParsing "https://raw.githubusercontent.com/sasukemc77/sglass-spicetify/main/install.ps1" | Invoke-Expression
+Invoke-WebRequest -UseBasicParsing "https://raw.githubusercontent.com/sasukemc7/sglass-spicetify/main/install.ps1" | Invoke-Expression
 ```
 
 #### Linux/macOS (Bash)
 ```bash
-curl -fsSL https://raw.githubusercontent.com/sasukemc77/sglass-spicetify/main/install.sh | sh
+curl -fsSL https://raw.githubusercontent.com/sasukemc7/sglass-spicetify/main/install.sh | sh
 ```
 
 ### Option 2: Manual Installation
 
 1. **Download the theme**
    ```bash
-   git clone https://github.com/sasukemc77/sglass-spicetify.git
+   git clone https://github.com/sasukemc7/sglass-spicetify.git
    ```
 
 2. **Copy to Spicetify themes folder**
@@ -169,7 +169,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 👨‍💻 Credits
 
-**Created by [Sasuke MC](https://sasukemc77.com)**
+**Created by [Sasuke MC](https://sasukemc.com)**
 
 ### Inspiration
 - Based on modern glass design principles
@@ -187,7 +187,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 <div align="center">
 
-**[Website](https://sasukemc77.com)** • **[Portfolio](https://sasukemc77.com)** • **[Report Issues](https://github.com/sasukemc77/sglass-spicetify/issues)**
+**[Website](https://sasukemc.com)** • **[Portfolio](https://sasukemc.com)** • **[Report Issues](https://sasukemc.com)**
 
 Made with ❤️ by Sasuke MC
 
