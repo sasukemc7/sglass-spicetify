@@ -5,7 +5,7 @@
   "preview": "https://raw.githubusercontent.com/sasukemc7/sglass-spicetify/main/preview/theme.png",
   "usercss": "user.css",
   "schemes": "color.ini",
-  "tags": ["latest", "glass", "liquid", "dynamic", "modern", "animation"],
+  "tags": ["glass", "liquid", "dynamic", "modern", "animation"],
   "include": [
     "https://raw.githubusercontent.com/sasukemc7/sglass-spicetify/main/theme.js"
   ],
