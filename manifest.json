@@ -1,8 +1,8 @@
 {
   "name": "SGlass",
   "description": "A premium glass-inspired Spotify theme featuring dynamic colors, liquid glass effects, and sleek animations.",
-  "readme": "https://raw.githubusercontent.com/sasukemc7/sglass-spicetify/main/README.md",
   "preview": "https://raw.githubusercontent.com/sasukemc7/sglass-spicetify/main/preview/theme.png",
+  "readme": "https://raw.githubusercontent.com/sasukemc7/sglass-spicetify/main/README.md",
   "usercss": "user.css",
   "schemes": "color.ini",
   "tags": ["glass", "liquid", "dynamic", "modern", "animation"],
