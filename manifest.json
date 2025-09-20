@@ -10,7 +10,7 @@
   "preview": "https://raw.githubusercontent.com/sasukemc7/sglass-spicetify/main/preview/theme.png",
   "usercss": "https://raw.githubusercontent.com/sasukemc7/sglass-spicetify/main/user.css",
   "schemes": "https://raw.githubusercontent.com/sasukemc7/sglass-spicetify/main/color.ini",
-  "tags": ["glass", "liquid", "dynamic", "modern", "animation"],
+  "tags": ["latest", "glass", "liquid", "dynamic", "modern", "animation"],
   "usedColors": [
     "text","subtext","main","sidebar","player","card","shadow","selected-row",
     "button","button-active","button-disabled","tab-active","notification",
