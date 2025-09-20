@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # SGlass Theme Installer for Spicetify
-# Created by Sasuke MC (https://sasukemc.com)
+# Created by Sasuke MC (https://sasukemc7.com)
 
 set -e
 
@@ -81,10 +81,10 @@ install_theme() {
     print_info "Downloading theme files..."
     
     # Download main files
-    curl -fsSL "https://raw.githubusercontent.com/sasukemc/sglass-spicetify/main/user.css" -o "$SGLASS_DIR/user.css"
-    curl -fsSL "https://raw.githubusercontent.com/sasukemc/sglass-spicetify/main/theme.js" -o "$SGLASS_DIR/theme.js"
-    curl -fsSL "https://raw.githubusercontent.com/sasukemc/sglass-spicetify/main/color.ini" -o "$SGLASS_DIR/color.ini"
-    curl -fsSL "https://raw.githubusercontent.com/sasukemc/sglass-spicetify/main/manifest.json" -o "$SGLASS_DIR/manifest.json"
+    curl -fsSL "https://raw.githubusercontent.com/sasukemc7/sglass-spicetify/main/user.css" -o "$SGLASS_DIR/user.css"
+    curl -fsSL "https://raw.githubusercontent.com/sasukemc7/sglass-spicetify/main/theme.js" -o "$SGLASS_DIR/theme.js"
+    curl -fsSL "https://raw.githubusercontent.com/sasukemc7/sglass-spicetify/main/color.ini" -o "$SGLASS_DIR/color.ini"
+    curl -fsSL "https://raw.githubusercontent.com/sasukemc7/sglass-spicetify/main/manifest.json" -o "$SGLASS_DIR/manifest.json"
     
     print_message "Theme files downloaded successfully!"
 }
@@ -122,7 +122,7 @@ add_patches() {
 # Main installation function
 main() {
     print_message "SGlass Theme Installer"
-    print_info "Created by Sasuke MC (https://sasukemc.com)"
+    print_info "Created by Sasuke MC (https://sasukemc7.com)"
     echo ""
     
     # Check prerequisites
@@ -146,7 +146,7 @@ main() {
     echo ""
     print_message "Installation completed successfully!"
     print_info "You can access theme settings by clicking the 🎨 button in Spotify's top bar."
-    print_info "For support, visit: https://sasukemc.com"
+    print_info "For support, visit: https://sasukemc7.com"
     print_warning "If you encounter any issues, try running: spicetify backup apply"
 }
 

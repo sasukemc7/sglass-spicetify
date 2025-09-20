@@ -72,7 +72,7 @@ try {
     Write-Host "4. Enjoy the liquid glass effects!" -ForegroundColor White
     Write-Host ""
     Write-Host "💡 Tip: Enable 'Dynamic song colors' for the best experience" -ForegroundColor Cyan
-    Write-Host "🌐 Support: https://sasukemc.com" -ForegroundColor Blue
+    Write-Host "🌐 Support: https://sasukemc7.com" -ForegroundColor Blue
     
 } catch {
     Write-Host "✗ Error applying theme: $($_.Exception.Message)" -ForegroundColor Red
