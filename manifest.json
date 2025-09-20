@@ -1,0 +1,39 @@
+{
+  "name": "SGlass",
+  "description": "A premium glass-inspired Spotify theme featuring dynamic colors, liquid glass effects, and sleek animations.",
+  "version": "1.0.0",
+  "author": "Sasuke MC",
+  "authors": ["Sasuke MC <contact@sasukemc.com>"],
+  "license": "MIT",
+  "readme": "README.md",
+  "tags": ["glass", "liquid", "dynamic", "modern", "animation"],
+  "usedColors": [
+    "text",
+    "subtext",
+    "main",
+    "sidebar",
+    "player",
+    "card",
+    "shadow",
+    "selected-row",
+    "button",
+    "button-active",
+    "button-disabled",
+    "tab-active",
+    "notification",
+    "notification-error",
+    "misc"
+  ],
+  "colorSchemes": {
+    "auto": {
+      "name": "Auto (Dynamic)",
+      "description": "Dynamically extracts colors from album artwork"
+    },
+    "custom": {
+      "name": "Custom Colors", 
+      "description": "Use custom color picker to set your preferred theme colors"
+    }
+  },
+  "include": [],
+  "schemeIni": "color.ini"
+}
